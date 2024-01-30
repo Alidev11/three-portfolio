@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { Canvas } from '@react-three/fiber'
+import { Perf } from 'r3f-perf'
 
 const Navbar = () => {
 	const [active, setActive] = useState("`");
@@ -67,8 +69,17 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
+			
 		</nav>
 	);
 };
+
+function mainn() {
+	return (
+		<Canvas>
+			<Perf />
+		</Canvas>
+	);
+}
 
 export default Navbar;
