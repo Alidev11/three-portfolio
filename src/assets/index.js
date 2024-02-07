@@ -13,13 +13,21 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import flutter from "./tech/flutter.png";
+import ajax from "./tech/ajax.png";
+import axure from "./tech/axure.png";
+import bootstrap from "./tech/bootstrap.png";
+import firebase from "./tech/firebase.png";
+import graphite from "./tech/graphite.png";
+import jquery from "./tech/jquery.png";
+import laravel from "./tech/laravel.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import pytorch from "./tech/pytorch.png";
+import sklearn from "./tech/sklearn.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,13 +53,19 @@ export {
   git,
   html,
   javascript,
-  mongodb,
+  sklearn,
+	jquery,
+	php,
+	ajax,
+	mysql,
   nodejs,
-  reactjs,
-  redux,
+  axure,
+	bootstrap,
+	firebase,
+	graphite,
+	flutter,
+	pytorch,
   tailwind,
-  typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
@@ -59,4 +73,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  laravel,
+  python,
 };

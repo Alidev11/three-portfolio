@@ -69,52 +69,24 @@ const services = [
 
 const technologies = [
 	{
-		name: "HTML 5",
-		icon: html,
-	},
-	{
-		name: "CSS 3",
-		icon: css,
-	},
-	{
-		name: "JavaScript",
+		name: "javascript",
 		icon: javascript,
 	},
 	{
-		name: "jQuery",
-		icon: jquery,
-	},
-	{
-		name: "JavaScript",
-		icon: javascript,
-	},
-	{
-		name: "PHP",
+		name: "php",
 		icon: php,
 	},
 	{
-		name: "MySql",
+		name: "mysql",
 		icon: mysql,
 	},
 	{
-		name: "Ajax",
-		icon: ajax,
-	},
-	{
-		name: "Laravel",
+		name: "laravel",
 		icon: laravel,
-	},
-	{
-		name: "Bootstrap",
-		icon: bootstrap,
 	},
 	{
 		name: "Tailwind CSS",
 		icon: tailwind,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
 	},
 	{
 		name: "git",
@@ -133,10 +105,6 @@ const technologies = [
 		icon: docker,
 	},
 	{
-		name: "graphite",
-		icon: graphite,
-	},
-	{
 		name: "firebase",
 		icon: firebase,
 	},
@@ -147,10 +115,6 @@ const technologies = [
 	{
 		name: "pytorch",
 		icon: pytorch,
-	},
-	{
-		name: "scikit-learn",
-		icon: sklearn,
 	},
 	{
 		name: "python",
@@ -216,26 +180,26 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
+			"He was very professional and prompt. He completed the order 2 days before the required delivery date. He did a great job and I would highly recommend him. I plan to use him again should I need this type of service and will tell others about him.",
+		name: "emmerstine",
+		designation: "CEO",
+		company: "Divorce Coaching",
 		image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+			"Loved working with him. He was diligent and prompt and did a great job.",
+		name: "emmerstine",
+		designation: "CEO",
+		company: "Divorce Coaching",
+		image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
+			"Merci Ali, à la prochaine pour d'autres projets",
+		name: "rikaconcept",
+		designation: "Fiverr buyer",
+		company: "Ivory Coast",
 		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
 ];
@@ -251,7 +215,7 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "flutter",
 				color: "green-text-gradient",
 			},
 			{
