@@ -4,14 +4,17 @@ import {
 	creator,
 	web,
 	javascript,
-	typescript,
+	python,
 	html,
 	css,
-	reactjs,
-	redux,
+	sklearn,
+	jquery,
+	php,
+	ajax,
+	mysql,
 	tailwind,
 	nodejs,
-	mongodb,
+	laravel,
 	git,
 	figma,
 	docker,
@@ -22,7 +25,12 @@ import {
 	carrent,
 	jobit,
 	tripguide,
-	threejs,
+	axure,
+	bootstrap,
+	firebase,
+	graphite,
+	flutter,
+	pytorch,
 } from "../assets";
 
 export const navLinks = [
@@ -73,16 +81,32 @@ const technologies = [
 		icon: javascript,
 	},
 	{
-		name: "TypeScript",
-		icon: typescript,
+		name: "jQuery",
+		icon: jquery,
 	},
 	{
-		name: "React JS",
-		icon: reactjs,
+		name: "JavaScript",
+		icon: javascript,
 	},
 	{
-		name: "Redux Toolkit",
-		icon: redux,
+		name: "PHP",
+		icon: php,
+	},
+	{
+		name: "MySql",
+		icon: mysql,
+	},
+	{
+		name: "Ajax",
+		icon: ajax,
+	},
+	{
+		name: "Laravel",
+		icon: laravel,
+	},
+	{
+		name: "Bootstrap",
+		icon: bootstrap,
 	},
 	{
 		name: "Tailwind CSS",
@@ -93,14 +117,6 @@ const technologies = [
 		icon: nodejs,
 	},
 	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
-		name: "Three JS",
-		icon: threejs,
-	},
-	{
 		name: "git",
 		icon: git,
 	},
@@ -109,8 +125,36 @@ const technologies = [
 		icon: figma,
 	},
 	{
+		name: "axure",
+		icon: axure,
+	},
+	{
 		name: "docker",
 		icon: docker,
+	},
+	{
+		name: "graphite",
+		icon: graphite,
+	},
+	{
+		name: "firebase",
+		icon: firebase,
+	},
+	{
+		name: "flutter",
+		icon: flutter,
+	},
+	{
+		name: "pytorch",
+		icon: pytorch,
+	},
+	{
+		name: "scikit-learn",
+		icon: sklearn,
+	},
+	{
+		name: "python",
+		icon: python,
 	},
 ];
 
