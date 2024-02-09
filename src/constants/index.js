@@ -145,6 +145,7 @@ const experiences = [
 			"Data collection and cleaning using opencv.",
 			"Training an algorithm to detect production defects in sardine cans using Pytorch and Google colab .",
 			"Deployment of the model in a desktop application using Pyqt5.",
+			"Link Github: https://github.com/Alidev11/defect_detection",
 		],
 	},
 	{
