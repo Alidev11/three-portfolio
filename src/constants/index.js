@@ -13,9 +13,12 @@ import {
 	figma,
 	docker,
 	fiverr,
-	carrent,
-	jobit,
-	tripguide,
+	yolov8Graphite,
+	defectdetection,
+	arTweet,
+	caliClustering,
+	portailPFE,
+	gestionAbsence,
 	axure,
 	firebase,
 	flutter,
@@ -117,7 +120,7 @@ const experiences = [
 		title: "Freelancer",
 		company_name: "Fiverr",
 		icon: fiverr,
-		iconBg: "#383E56",
+		iconBg: "#E6DEDD",
 		date: "Jan 2021 - Present",
 		points: ["Editing a UENI website.", "Developing a user management system in laravel."],
 	},
@@ -145,7 +148,7 @@ const experiences = [
 			"Data collection and cleaning using opencv.",
 			"Training an algorithm to detect production defects in sardine cans using Pytorch and Google colab .",
 			"Deployment of the model in a desktop application using Pyqt5.",
-			"Link Github: https://github.com/Alidev11/defect_detection",
+			"Link Github https://github.com/Alidev11/defect_detection",
 		],
 	},
 	{
@@ -187,67 +190,142 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "ASL Detection",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Command line application to detect American Sign Language(ASL) using the deep learning model Yolov8 and Graphite to monitor its performance.",
 		tags: [
 			{
-				name: "react",
+				name: "Graphite",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "flutter",
+				name: "Python",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "Yolov8",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: yolov8Graphite,
+		source_code_link: "https://github.com/Alidev11/yolov8-graphite",
 	},
 	{
-		name: "Job IT",
+		name: "Production Defect Detection",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"GUI application that detects defects in sardine cans during production. The deep learning model used can detect defects in more than just my dataset.",
 		tags: [
 			{
-				name: "react",
+				name: "PyQt5",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "Python",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "VGG16",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: defectdetection,
+		source_code_link: "https://github.com/Alidev11/defect_detection",
 	},
 	{
-		name: "Trip Guide",
+		name: "Sentiment Analysis of Arabic Tweets",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"This web application developed using Streamlit to analyze and extract sentiments from Arabic tweets using artificial intelligence and Deep Learning. I used CNN as a model to classify tweets (positive/negative).",
 		tags: [
 			{
-				name: "nextjs",
+				name: "Python",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "Scikit-learn",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "Keras",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Streamlit",
+				color: "red-text-gradient",
+			},
+		],
+		image: arTweet,
+		source_code_link: "https://github.com/Alidev11/cnn-ar-tweets",
+	},
+	{
+		name: "California Houses Clustering",
+		description:
+			"This is a web app that cluster california houses using the Machine Learning Model DBSCAN. We used a dataset from Kaggle to implement this.",
+		tags: [
+			{
+				name: "Python",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Scikit-learn",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Streamlit",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: caliClustering,
+		source_code_link: "https://github.com/Alidev11/clustering_web_app",
+	},
+	{
+		name: "Company Portal(ESE)",
+		description:
+			"The aim of this project was to develop a Laravel-based web application to enable a company’s customers to check and update their information in the SAP system. This is my end of study internship project and I can't reveal more about it to ensure confidentiality and security of the system",
+		tags: [
+			{
+				name: "Laravel",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "SAP",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "API",
+				color: "red-text-gradient",
+			},
+		],
+		image: portailPFE,
+		source_code_link: "https://github.com/Alidev11/",
+	},
+	{
+		name: "Absence Management",
+		description:
+			"web application that enables absence management for different roles, such as Professor, Coordinator, Department Head, and Scholarship Officer. The application also allows the administrator to manage permissions and subjects using PHP, HTML, CSS and JavaScript.",
+		tags: [
+			{
+				name: "PHP",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Ajax",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "MySQL",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: gestionAbsence,
+		source_code_link: "https://github.com/mhamed-sayamik/gestion-absences",
 	},
 ];
 

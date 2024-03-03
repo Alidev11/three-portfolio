@@ -126,6 +126,10 @@
   transform: translateZ(0);
 }
 
+.wrap{
+  word-wrap: break-word;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

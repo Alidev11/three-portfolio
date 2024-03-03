@@ -26,9 +26,12 @@ import tailwind from "./tech/tailwind.png";
 import fiverr from "./company/fiverr.png";
 import bcSkills from "./company/bcSkills.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import yolov8Graphite from "./yolov8-graphite.png";
+import defectdetection from "./defect-detection.png";
+import arTweet from "./arTweet.png";
+import caliClustering from "./cali-clustering.png";
+import portailPFE from "./portail-PFE.png";
+import gestionAbsence from "./gestion-absence.png";
 
 export {
 	logo,
@@ -52,9 +55,12 @@ export {
 	flutter,
 	pytorch,
 	tailwind,
-	carrent,
-	jobit,
-	tripguide,
+	yolov8Graphite,
+	defectdetection,
+	arTweet,
+	caliClustering,
+	portailPFE,
+	gestionAbsence,
 	laravel,
 	python,
 	fiverr,
