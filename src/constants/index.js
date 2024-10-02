@@ -43,19 +43,11 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Data Scientist",
+		title: "Software Engineer",
 		icon: backend,
 	},
 	{
-		title: "Freelancer",
-		icon: creator,
-	},
-	{
-		title: "Laravel Developer",
-		icon: mobile,
-	},
-	{
-		title: "Full stack Web Developer",
+		title: "Full stack Web Developer(Spring/React)",
 		icon: web,
 	},
 ];
@@ -121,8 +113,8 @@ const experiences = [
 		company_name: "Fiverr",
 		icon: fiverr,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Present",
-		points: ["Editing a UENI website.", "Developing a user management system in laravel."],
+		date: "Jan 2023 - Present",
+		points: ["Editing a UENI website.", "Developing a user management system in laravel.", "Developed an ecommerce website using laravel.", "Developed a trading web application."],
 	},
 	{
 		title: "Laravel Developer",
@@ -148,7 +140,6 @@ const experiences = [
 			"Data collection and cleaning using opencv.",
 			"Training an algorithm to detect production defects in sardine cans using Pytorch and Google colab .",
 			"Deployment of the model in a desktop application using Pyqt5.",
-			"Link Github https://github.com/Alidev11/defect_detection",
 		],
 	},
 	{
@@ -276,31 +267,6 @@ const projects = [
 		],
 		image: caliClustering,
 		source_code_link: "https://github.com/Alidev11/clustering_web_app",
-	},
-	{
-		name: "Company Portal(ESE)",
-		description:
-			"The aim of this project was to develop a Laravel-based web application to enable a company’s customers to check and update their information in the SAP system. This is my end of study internship project and I can't reveal more about it to ensure confidentiality and security of the system",
-		tags: [
-			{
-				name: "Laravel",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "javascript",
-				color: "green-text-gradient",
-			},
-			{
-				name: "SAP",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "API",
-				color: "red-text-gradient",
-			},
-		],
-		image: portailPFE,
-		source_code_link: "https://github.com/Alidev11/",
 	},
 	{
 		name: "Absence Management",
